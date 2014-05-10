@@ -1,0 +1,25 @@
+* {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus {
+  outline: 0!important;
+}
+
+body.login {
+  background: #fff;
+}
+
+body.login h1 a {
+  background: url('../login/images/logo.png') center center no-repeat transparent;
+  background-size: 220px 61px;
+  width: 220px;
+  height: 61px;
+  margin: 0 auto 30px;
+  opacity: 0.7;
+  padding: 0;
+}
